@@ -17,5 +17,5 @@ model User {
   password String
   active Boolean @default(false)
   createdAt DateTime @default(now())
-  updateAt DateTime? @updateAt
+  updateAt DateTime? @updatedAt
 }
